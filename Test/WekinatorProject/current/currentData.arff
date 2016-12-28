@@ -1,0 +1,26 @@
+@relation dataset
+
+@attribute ID numeric
+@attribute Time date 'yyyy/MM/dd HH:mm:ss:SSS'
+@attribute 'Training round' numeric
+@attribute inputs-1 numeric
+@attribute inputs-2 numeric
+@attribute inputs-3 numeric
+@attribute inputs-4 numeric
+@attribute inputs-5 numeric
+@attribute inputs-6 numeric
+@attribute inputs-7 numeric
+@attribute outputs-1 numeric
+@attribute outputs-2 numeric
+@attribute outputs-3 numeric
+@attribute outputs-4 numeric
+@attribute outputs-5 numeric
+@attribute outputs-6 numeric
+
+@data
+177,'2016/12/29 01:37:24:347',25,-64,0,0,0,0,0,0,0,0,0,0,0,0
+179,'2016/12/29 01:38:22:073',27,-64,1530,1236,822,903,727,1912,0.79,0.82,0.85,0,0,0
+180,'2016/12/29 01:38:57:898',28,1898,819,1553,584,868,278,1294,0.595481,0.618094,0.02,0,0,1
+181,'2016/12/29 01:39:42:627',29,1082,5,0,1790,981,5,0,0.595481,1,1,0.08,0,0
+182,'2016/12/29 01:40:49:609',30,372,1912,1807,46,755,1220,946,0,0.12,0,0.08,0,0
+183,'2016/12/29 01:41:19:869',31,372,1976,424,46,755,758,946,0.92,0.71,0.37,0.08,0.97,1
